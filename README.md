@@ -1,13 +1,9 @@
 <h1>JS Tool for Tailwind CSS</h1>
 
-<!--
-
-[![minified size](https://img.shields_.io/bundlephobia/min/jstool-for-tailwindcss)](https://bundlephobia.com/package/jstool-for-tailwindcss)
-[![license](https://img.shields_.io/github/license/brandonmcconnell/jstool-for-tailwindcss?label=license)](https://github.com/brandonmcconnell/jstool-for-tailwindcss/blob/main/LICENSE.txt)
-[![version](https://img.shields_.io/npm/v/jstool-for-tailwindcss)](https://www.npmjs.com/package/jstool-for-tailwindcss)
-[![twitter](https://img.shields_.io/twitter/follow/branmcconnell)](https://twitter.com/branmcconnell)
-
--->
+[![minified size](https://img.shields.io/bundlephobia/min/jstool-for-tailwindcss)](https://bundlephobia.com/package/jstool-for-tailwindcss)
+[![license](https://img.shields.io/github/license/brandonmcconnell/jstool-for-tailwindcss?label=license)](https://github.com/brandonmcconnell/jstool-for-tailwindcss/blob/main/LICENSE.txt)
+[![version](https://img.shields.io/npm/v/jstool-for-tailwindcss)](https://www.npmjs.com/package/jstool-for-tailwindcss)
+[![twitter](https://img.shields.io/twitter/follow/branmcconnell)](https://twitter.com/branmcconnell)
 
 `jstool-for-tailwindcss` is a plugin for Tailwind CSS that introduces the `js` directive, a utility that allows you to evaluate JavaScript expressions within your utility classes. This provides a flexible, dynamic approach to defining your styles.
 
