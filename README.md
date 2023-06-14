@@ -113,3 +113,8 @@ This plugin is…
 ---
 
 I hope you find `jstool-for-tailwindcss` a valuable addition to your projects. If you have any issues or suggestions, don't hesitate to open an issue or pull request.
+
+If you liked this, you might also like my other Tailwind CSS plugins:
+* [multitool-for-tailwindcss](https://github.com/brandonmcconnell/multitool-for-tailwindcss): Group utilities together by variant
+* [tailwind-lerp-colors](https://github.com/brandonmcconnell/tailwind-lerp-colors): Expand your color horizons and take the fuss out of genertaing new—or expanding existing—color palettes
+* [tailwindcss-directional-shadows](https://github.com/brandonmcconnell/tailwindcss-directional-shadows): Supercharge your shadow utilities with added directional support (includes directional `shadow-border` utilities too ✨)

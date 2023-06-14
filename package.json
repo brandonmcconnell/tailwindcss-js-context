@@ -1,6 +1,6 @@
 {
   "name": "jstool-for-tailwindcss",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "JS script injection utility for Tailwind CSS",
   "main": "index.js",
   "publishConfig": {
