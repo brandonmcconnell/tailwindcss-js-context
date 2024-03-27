@@ -2,7 +2,7 @@ import plugin from 'tailwindcss/plugin';
 
 type Options = Record<string, any>;
 
-module.exports = plugin.withOptions(function (options: Options = {}) {
+export default plugin.withOptions(function (options: Options = {}) {
   return function ({ matchUtilities, theme, config }) {
     const context = {
       theme,
@@ -12,19 +12,14 @@ module.exports = plugin.withOptions(function (options: Options = {}) {
     matchUtilities({
       js: (value) => {
         const escape = (str: string) => {
-          console.log(`escaping \`${str}\``);
           return str.replace(/_/g, '\\_').replace(/ /g, '_');
         };
 
         const unescape = (str: string) => {
-          console.log(`unescaping \`${str}\``);
-          str = str.replace(/(?<!\\)_/g, ' ');
-          str = str.replace(/\\_/g, '_');
-          return str;
+          return str.replace(/(?<!\\)_/g, ' ').replace(/\\_/g, '_');
         };
 
         const parseString = (str: string) => {
-          console.log(`parsing \`${str}\``);
           return str.split(/(#{.*?})/g).map((el, i) => (i % 2 === 1 ? el.slice(2, -1) : el));
         };
 
