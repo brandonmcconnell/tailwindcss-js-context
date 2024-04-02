@@ -2,14 +2,14 @@
 
 <div align="center">
 
-[![minified size](https://img.shields.io/bundlephobia/min/jstool-for-tailwindcss)](https://bundlephobia.com/package/jstool-for-tailwindcss)
-[![license](https://img.shields.io/github/license/brandonmcconnell/jstool-for-tailwindcss?label=license)](https://github.com/brandonmcconnell/jstool-for-tailwindcss/blob/main/LICENSE)
-[![version](https://img.shields.io/npm/v/jstool-for-tailwindcss)](https://www.npmjs.com/package/jstool-for-tailwindcss)
+[![minified size](https://img.shields.io/bundlephobia/min/tailwindcss-jstool)](https://bundlephobia.com/package/tailwindcss-jstool)
+[![license](https://img.shields.io/github/license/brandonmcconnell/tailwindcss-jstool?label=license)](https://github.com/brandonmcconnell/tailwindcss-jstool/blob/main/LICENSE)
+[![version](https://img.shields.io/npm/v/tailwindcss-jstool)](https://www.npmjs.com/package/tailwindcss-jstool)
 [![twitter](https://img.shields.io/twitter/follow/branmcconnell)](https://twitter.com/branmcconnell)
 
 </div>
 
-`jstool-for-tailwindcss` is a plugin for Tailwind CSS that introduces the `js` directive, a utility that allows you to evaluate JavaScript expressions within your utility classes. This provides a flexible, dynamic approach to defining your styles.
+`tailwindcss-jstool` is a plugin for Tailwind CSS that introduces the `js` directive, a utility that allows you to evaluate JavaScript expressions within your utility classes. This provides a flexible, dynamic approach to defining your styles.
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -17,14 +17,14 @@
   - [Using Context Values](#using-context-values)
   - [Built-In Context Values](#built-in-context-values)
   - [Other (mostly random \& unrealistic) examples](#other-mostly-random--unrealistic-examples)
-- [Why use `jstool-for-tailwindcss`](#why-use-jstool-for-tailwindcss)
+- [Why use `tailwindcss-jstool`](#why-use-tailwindcss-jstool)
 
 ## Installation
 
 You can install the plugin via npm:
 
 ```bash
-npm install jstool-for-tailwindcss
+npm install tailwindcss-jstool
 ```
 
 Then, include it in your `tailwind.config.js`:
@@ -32,7 +32,7 @@ Then, include it in your `tailwind.config.js`:
 ```js
 module.exports = {
   plugins: [
-    require('jstool-for-tailwindcss'),
+    require('tailwindcss-jstool'),
   ]
 }
 ```
@@ -42,7 +42,7 @@ or if using a custom context object:
 ```js
 module.exports = {
   plugins: [
-    require('jstool-for-tailwindcss')({
+    require('tailwindcss-jstool')({
       appName: 'My app',
       // ...other values
     }),
@@ -104,9 +104,9 @@ Please note that all utilities are built at runtime, so in order for a one-off u
 
 All of these examples can also be seen and tested here on Tailwind Play: https://play.tailwindcss.com/ZID1xrVAra
 
-## Why use `jstool-for-tailwindcss`
+## Why use `tailwindcss-jstool`
 
-`jstool-for-tailwindcss` allows you to bring the power of JavaScript directly into your utility classes, enabling dynamic styles based on logic and state. This opens up endless possibilities for reactive design patterns.
+`tailwindcss-jstool` allows you to bring the power of JavaScript directly into your utility classes, enabling dynamic styles based on logic and state. This opens up endless possibilities for reactive design patterns.
 
 This plugin is…
 
@@ -116,9 +116,10 @@ This plugin is…
 
 ---
 
-I hope you find `jstool-for-tailwindcss` a valuable addition to your projects. If you have any issues or suggestions, don't hesitate to open an issue or pull request.
+I hope you find `tailwindcss-jstool` a valuable addition to your projects. If you have any issues or suggestions, don't hesitate to open an issue or pull request.
 
 If you liked this, you might also like my other Tailwind CSS plugins:
+* [tailwindcss-signals](https://github.com/brandonmcconnell/tailwindcss-signals): Declarative API for applying styles based on parent or ancestor state
 * [tailwindcss-selector-patterns](https://github.com/brandonmcconnell/tailwindcss-selector-patterns): Dynamic CSS selector patterns
 * [tailwindcss-multitool](https://github.com/brandonmcconnell/tailwindcss-multitool): Group utilities together by variant
 * [tailwindcss-directional-shadows](https://github.com/brandonmcconnell/tailwindcss-directional-shadows): Supercharge your shadow utilities with added directional support (includes directional `shadow-border` utilities too ✨)
