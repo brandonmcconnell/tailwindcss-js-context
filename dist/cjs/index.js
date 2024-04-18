@@ -22,7 +22,7 @@ exports.default = plugin_1.default.withOptions(function (options = {}) {
                 const parseString = (str) => {
                     return str.split(/(#{.*?})/g).map((el, i) => (i % 2 === 1 ? el.slice(2, -1) : el));
                 };
-                const parts = parseString(escape(value));
+                const parts = parseString(escape(value.slice(1, -1)));
                 const utility = parts
                     .map((part, i) => {
                     if (i % 2 === 0) {

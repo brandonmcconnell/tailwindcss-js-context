@@ -1,5 +1,5 @@
 {
-  "name": "tailwindcss-jstool",
+  "name": "tailwindcss-js",
   "version": "0.1.5",
   "description": "JS script injection utility for Tailwind CSS",
   "main": "./dist/cjs/index.js",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brandonmcconnell/tailwindcss-jstool.git"
+    "url": "git+https://github.com/brandonmcconnell/tailwindcss-js.git"
   },
   "keywords": [
     "css",
@@ -41,9 +41,9 @@
   "author": "Brandon McConnell",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brandonmcconnell/tailwindcss-jstool/issues"
+    "url": "https://github.com/brandonmcconnell/tailwindcss-js/issues"
   },
-  "homepage": "https://github.com/brandonmcconnell/tailwindcss-jstool#readme",
+  "homepage": "https://github.com/brandonmcconnell/tailwindcss-js#readme",
   "dependencies": {
     "@types/node": "^20.4.1",
     "tailwindcss": "^3.0.2"
