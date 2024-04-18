@@ -144,7 +144,7 @@ This plugin is…
 
 The release of [Tailwind CSS v3.3.6](https://github.com/tailwindlabs/tailwindcss/releases/tag/v3.3.6) (on Dec 4, 2023) introduced breaking changes that made the original syntax of JS for Tailwind CSS incompatible with newer versions of Tailwind CSS.
 
-See [tailwindcss/#13473](https://github.com/tailwindlabs/tailwindcss/issues/13473) for the discussion that led to this new syntax.
+See [tailwindlabs/tailwindcss#13473](https://github.com/tailwindlabs/tailwindcss/issues/13473) for the discussion that led to this new syntax.
 
 This change required a slight tweak to the syntax of the `js` directive. Instead of `js-[...]`, use `js-['...']` (with a quoted value between the brackets) to pass the grouped utilities together as a string.
 
@@ -157,9 +157,10 @@ Passing the joined strings together as a string allows the Tailwind CSS parser (
 I hope you find `tailwindcss-js` a valuable addition to your projects. If you have any issues or suggestions, don't hesitate to open an issue or pull request.
 
 If you liked this, you might also like my other Tailwind CSS plugins:
-* [tailwindcss-signals](https://github.com/brandonmcconnell/tailwindcss-signals): Declarative API for applying styles based on parent or ancestor state
-* [tailwindcss-selector-patterns](https://github.com/brandonmcconnell/tailwindcss-selector-patterns): Dynamic CSS selector patterns
 * [tailwindcss-multi](https://github.com/brandonmcconnell/tailwindcss-multi): Group utilities together by variant
+* [tailwindcss-signals](https://github.com/brandonmcconnell/tailwindcss-signals): Declarative API for applying styles based on parent or ancestor state
+* [tailwindcss-mixins](https://github.com/brandonmcconnell/tailwindcss-mixins): Declarative API for building reusable & aliased sets of utilities inline
+* [tailwindcss-selector-patterns](https://github.com/brandonmcconnell/tailwindcss-selector-patterns): Dynamic CSS selector patterns
 * [tailwindcss-directional-shadows](https://github.com/brandonmcconnell/tailwindcss-directional-shadows): Supercharge your shadow utilities with added directional support (includes directional `shadow-border` utilities too ✨)
 * [tailwindcss-default-shades](https://github.com/brandonmcconnell/tailwindcss-default-shades): Default shades for simpler color utility classes
 * [tailwind-lerp-colors](https://github.com/brandonmcconnell/tailwind-lerp-colors): Expand your color horizons and take the fuss out of generating new—or expanding existing—color palettes
