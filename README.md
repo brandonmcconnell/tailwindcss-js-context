@@ -27,6 +27,7 @@
 > ```
 > ❌ js-[content-['1_+_1_=_#{1+1}']]
 > ✅ js-['content-['1_+_1_=_#{1+1}']']
+>        ^                          ^
 > ```
 > See the [New syntax explanation](#new-syntax-explanation) section for more information.
 
