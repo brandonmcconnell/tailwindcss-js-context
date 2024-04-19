@@ -21,17 +21,11 @@
 - [New syntax explanation](#new-syntax-explanation)
 
 > [!IMPORTANT]
-> ### New name
-> The plugin was previously named `tailwindcss-js`, but has been renamed to `tailwindcss-js` to simplify reference.
->
-> ### New syntax due to breaking changes
-> The value between the brackets in the `js` directive must now be quoted. This is due to a breaking change introduced in Tailwind CSS v3.3.6.
->
+> Update to `@latest` to ensure compatibility with newer versions of Tailwind CSS. The change also brings a slight change to the syntax, as the value between the brackets must now be quoted, due to a breaking change introduced in Tailwind CSS v3.3.6.
 > ```
 > ❌ js-[content-['1_+_1_=_#{1+1}']]
 > ✅ js-['content-['1_+_1_=_#{1+1}']']
 > ```
->
 > See the [New syntax explanation](#new-syntax-explanation) section for more information.
 
 ## Installation
