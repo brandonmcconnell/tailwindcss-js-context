@@ -1,5 +1,5 @@
 import plugin from 'tailwindcss/plugin';
-export default plugin.withOptions(function (options = {}) {
+module.exports = plugin.withOptions(function (options = {}) {
     return function ({ matchUtilities, theme, config }) {
         const context = {
             theme,

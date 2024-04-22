@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const plugin_1 = __importDefault(require("tailwindcss/plugin"));
-exports.default = plugin_1.default.withOptions(function (options = {}) {
+module.exports = plugin_1.default.withOptions(function (options = {}) {
     return function ({ matchUtilities, theme, config }) {
         const context = {
             theme,

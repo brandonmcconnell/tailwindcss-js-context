@@ -2,7 +2,7 @@ import plugin from 'tailwindcss/plugin';
 
 type Options = Record<string, any>;
 
-export default plugin.withOptions(function (options: Options = {}) {
+module.exports = plugin.withOptions(function (options: Options = {}) {
   return function ({ matchUtilities, theme, config }) {
     const context = {
       theme,
