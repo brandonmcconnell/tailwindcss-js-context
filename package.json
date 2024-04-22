@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-js",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "JS script injection utility for Tailwind CSS",
   "main": "./dist/cjs/index.js",
   "files": [
