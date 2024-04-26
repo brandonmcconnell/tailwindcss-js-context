@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-js",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "description": "JS script injection utility for Tailwind CSS",
   "type": "module",
   "source": "index.ts",
