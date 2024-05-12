@@ -1,7 +1,13 @@
-> [!IMPORTANT]
-> `tailwindcss-js` has been renamed to `tailwindcss-js-context` to better reflect its purpose.
-
 <h1 align="center">JS Context for Tailwind CSS</h1>
+
+<div align="center">
+
+[![minified size](https://img.shields.io/bundlephobia/min/tailwindcss-js-context)](https://bundlephobia.com/package/tailwindcss-js-context)
+[![license](https://img.shields.io/github/license/brandonmcconnell/tailwindcss-js-context?label=license)](https://github.com/brandonmcconnell/tailwindcss-js-context/blob/main/LICENSE)
+[![version](https://img.shields.io/npm/v/tailwindcss-js-context)](https://www.npmjs.com/package/tailwindcss-js-context)
+[![twitter](https://img.shields.io/twitter/follow/branmcconnell)](https://twitter.com/branmcconnell)
+
+</div>
 
 `tailwindcss-js-context` is a plugin for Tailwind CSS that introduces the `js` directive, a utility that allows you to evaluate JavaScript expressions within your utility classes. This provides a flexible, dynamic approach to defining your styles.
 
