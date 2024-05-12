@@ -1,15 +1,18 @@
-<h1 align="center">JS for Tailwind CSS</h1>
+> [!IMPORTANT]
+> `tailwindcss-js` has been renamed to `tailwindcss-js-context` to better reflect its purpose.
+
+<h1 align="center">JS Context for Tailwind CSS</h1>
 
 <div align="center">
 
-[![minified size](https://img.shields.io/bundlephobia/min/tailwindcss-js)](https://bundlephobia.com/package/tailwindcss-js)
-[![license](https://img.shields.io/github/license/brandonmcconnell/tailwindcss-js?label=license)](https://github.com/brandonmcconnell/tailwindcss-js/blob/main/LICENSE)
-[![version](https://img.shields.io/npm/v/tailwindcss-js)](https://www.npmjs.com/package/tailwindcss-js)
+[![minified size](https://img.shields.io/bundlephobia/min/tailwindcss-js-context)](https://bundlephobia.com/package/tailwindcss-js-context)
+[![license](https://img.shields.io/github/license/brandonmcconnell/tailwindcss-js-context?label=license)](https://github.com/brandonmcconnell/tailwindcss-js-context/blob/main/LICENSE)
+[![version](https://img.shields.io/npm/v/tailwindcss-js-context)](https://www.npmjs.com/package/tailwindcss-js-context)
 [![twitter](https://img.shields.io/twitter/follow/branmcconnell)](https://twitter.com/branmcconnell)
 
 </div>
 
-`tailwindcss-js` is a plugin for Tailwind CSS that introduces the `js` directive, a utility that allows you to evaluate JavaScript expressions within your utility classes. This provides a flexible, dynamic approach to defining your styles.
+`tailwindcss-js-context` is a plugin for Tailwind CSS that introduces the `js` directive, a utility that allows you to evaluate JavaScript expressions within your utility classes. This provides a flexible, dynamic approach to defining your styles.
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -17,12 +20,10 @@
   - [Using Context Values](#using-context-values)
   - [Built-In Context Values](#built-in-context-values)
   - [Other (mostly random \& unrealistic) examples](#other-mostly-random--unrealistic-examples)
-- [Why use `tailwindcss-js`](#why-use-tailwindcss-js)
+- [Why use `tailwindcss-js-context`](#why-use-tailwindcss-js-context)
 - [New syntax explanation](#new-syntax-explanation)
 
-> [!IMPORTANT]
-> Update to `@latest` to ensure compatibility with newer versions of Tailwind CSS.
-> 
+> [!WARNING]
 > **Syntax change:** The value between the brackets in the `js` directive must now be quoted, due to a breaking change introduced in Tailwind CSS v3.3.6.
 > ```
 > ❌ js-[content-['1_+_1_=_#{1+1}']]
@@ -36,7 +37,7 @@
 You can install the plugin via npm:
 
 ```bash
-npm install tailwindcss-js
+npm install tailwindcss-js-context
 ```
 
 Then, include it in your `tailwind.config.js`:
@@ -44,7 +45,7 @@ Then, include it in your `tailwind.config.js`:
 ```js
 module.exports = {
   plugins: [
-    require('tailwindcss-js'),
+    require('tailwindcss-js-context'),
   ]
 }
 ```
@@ -54,7 +55,7 @@ or if using a custom context object:
 ```js
 module.exports = {
   plugins: [
-    require('tailwindcss-js')({
+    require('tailwindcss-js-context')({
       // ...any values, e.g.
       appName: 'My app',
     }),
@@ -118,9 +119,9 @@ Please note that all utilities are built at runtime, so in order for a one-off u
 ```
 <sup>[View this example on Tailwind Play](https://play.tailwindcss.com/l4VSXZP2gd)</sup>
 
-## Why use `tailwindcss-js`
+## Why use `tailwindcss-js-context`
 
-`tailwindcss-js` allows you to bring the power of JavaScript directly into your utility classes, enabling dynamic styles based on logic and state. This opens up endless possibilities for reactive design patterns.
+`tailwindcss-js-context` allows you to bring the power of JavaScript directly into your utility classes, enabling dynamic styles based on logic and state. This opens up endless possibilities for reactive design patterns.
 
 This plugin is…
 
@@ -151,7 +152,7 @@ Passing the joined strings together as a string allows the Tailwind CSS parser (
 
 ---
 
-I hope you find `tailwindcss-js` a valuable addition to your projects. If you have any issues or suggestions, don't hesitate to open an issue or pull request.
+I hope you find `tailwindcss-js-context` a valuable addition to your projects. If you have any issues or suggestions, don't hesitate to open an issue or pull request.
 
 If you liked this, you might also like my other Tailwind CSS plugins:
 * [tailwindcss-multi](https://github.com/brandonmcconnell/tailwindcss-multi): Group utilities together by variant
